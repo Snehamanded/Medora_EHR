@@ -1,0 +1,38 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Install dependencies') {
+            steps {
+                sh '''
+                  echo "📦 Installing Node dependencies..."
+                  npm install --production
+                '''
+            }
+        }
+
+        stage('Deploy App') {
+            steps {
+                sh '''
+                  echo "⚙️ Restarting PM2 process..."
+                  pm2 describe medora-server > /dev/null
+                  if [ $? -ne 0 ]; then
+                    echo "👉 Process not found. Starting..."
+                    pm2 start server.js --name medora-server
+                  else
+                    echo "👉 Process exists. Restarting..."
+                    pm2 restart medora-server
+                  fi
+
+                  pm2 save
+                '''
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "medora_api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadabk92/medora_api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "multer",
+    "javascript"
+  ],
+  "author": "Medora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadabk92/medora_api/issues"
+  },
+  "homepage": "https://github.com/shadabk92/medora_api#readme",
+  "description": "",
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "axios": "^1.7.7",
+    "bcryptjs": "^3.0.2",
+    "compression": "^1.7.5",
+    "cors": "^2.8.5",
+    "dockerode": "4.0.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-winston": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mysql2": "^3.11.4",
+    "nodemailer": "^6.9.16",
+    "parse-error": "^0.2.0",
+    "sequelize": "^6.37.5",
+    "sib-api-v3-sdk": "^8.5.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

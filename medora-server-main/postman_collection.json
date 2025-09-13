@@ -1,0 +1,5424 @@
+{
+  "info": {
+    "name": "EHR API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Auto-generated Postman collection for EHR API"
+  },
+  "item": [
+    {
+      "name": "Activitylog",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for activityLogController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for activityLogController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for activityLogController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for activityLogController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for activityLogController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Admin",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for adminController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for adminController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for adminController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for adminController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for adminController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Adminstat",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for adminStatController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for adminStatController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for adminStatController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for adminStatController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for adminStatController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Admintype",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for adminTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for adminTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for adminTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for adminTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for adminTypeController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Announcement",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for announcementController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for announcementController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for announcementController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for announcementController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for announcementController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Appointment",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for appointmentController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for appointmentController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for appointmentController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for appointmentController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for appointmentController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Auditlog",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for auditLogController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for auditLogController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for auditLogController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for auditLogController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for auditLogController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Availability",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for availabilityController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for availabilityController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for availabilityController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for availabilityController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for availabilityController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Billingrecord",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for billingRecordController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for billingRecordController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for billingRecordController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for billingRecordController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for billingRecordController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Call",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for authMiddleware"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for authMiddleware"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for authMiddleware"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for authMiddleware"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for authMiddleware"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Category",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for categoryController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for categoryController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for categoryController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for categoryController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for categoryController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Chatthread",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for chatThreadController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for chatThreadController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for chatThreadController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for chatThreadController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for chatThreadController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Criticalalert",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for criticalAlertController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for criticalAlertController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for criticalAlertController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for criticalAlertController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for criticalAlertController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Doctor",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for doctorController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for doctorController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for doctorController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for doctorController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for doctorController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Document",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for documentController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for documentController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for documentController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for documentController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for documentController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Documenttype",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for documentTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for documentTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for documentTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for documentTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for documentTypeController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Emergencycontact",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for emergencyContactController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for emergencyContactController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for emergencyContactController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for emergencyContactController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for emergencyContactController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Engagementlog",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for engagementLogController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for engagementLogController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for engagementLogController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for engagementLogController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for engagementLogController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Faq",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for faqController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for faqController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for faqController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for faqController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for faqController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Fcm",
+      "item": [
+        {
+          "name": "POST /save-token",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/save-token",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "save-token"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//save-token\nAuto-generated description for authMiddleware"
+          },
+          "response": []
+        },
+        {
+          "name": "POST /send-single",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/send-single",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "send-single"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//send-single\nAuto-generated description for authMiddleware"
+          },
+          "response": []
+        },
+        {
+          "name": "POST /send-bulk",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/send-bulk",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "send-bulk"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//send-bulk\nAuto-generated description for authMiddleware"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Feedback",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for feedbackController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for feedbackController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for feedbackController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for feedbackController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for feedbackController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Gemini",
+      "item": [
+        {
+          "name": "POST /analyze",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/analyze",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "analyze"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//analyze\nAuto-generated description for geminiController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Hospital",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for hospitalController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for hospitalController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for hospitalController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for hospitalController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for hospitalController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Huggingface",
+      "item": [
+        {
+          "name": "POST /analyze",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/analyze",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "analyze"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//analyze\nAuto-generated description for huggingfaceController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Insurancerecord",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for insuranceRecordController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for insuranceRecordController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for insuranceRecordController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for insuranceRecordController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for insuranceRecordController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Laborder",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for labOrderController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for labOrderController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for labOrderController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for labOrderController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for labOrderController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Medicalrecord",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for medicalRecordController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for medicalRecordController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for medicalRecordController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for medicalRecordController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for medicalRecordController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Medicine",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for medicineController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for medicineController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for medicineController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for medicineController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for medicineController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Mode",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for modeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for modeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for modeController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for modeController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for modeController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Notification",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for notificationController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for notificationController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for notificationController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for notificationController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for notificationController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Notificationtype",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for notificationTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for notificationTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for notificationTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for notificationTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for notificationTypeController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Patient",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for patientController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for patientController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for patientController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for patientController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for patientController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Patienttype",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for patientTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for patientTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for patientTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for patientTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for patientTypeController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Payment",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for paymentController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for paymentController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for paymentController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for paymentController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for paymentController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Paymenttype",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for paymentTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for paymentTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for paymentTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for paymentTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for paymentTypeController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Prescription",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for prescriptionController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for prescriptionController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for prescriptionController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for prescriptionController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for prescriptionController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Subscription",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for subscriptionController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for subscriptionController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for subscriptionController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for subscriptionController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for subscriptionController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Subscriptiontype",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for subscriptionTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for subscriptionTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for subscriptionTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for subscriptionTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for subscriptionTypeController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Supportticket",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for supportTicketController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for supportTicketController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for supportTicketController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for supportTicketController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for supportTicketController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Symptomcategory",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for symptomCategoryController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for symptomCategoryController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for symptomCategoryController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for symptomCategoryController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for symptomCategoryController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "User",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for userController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for userController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for userController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for userController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for userController"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Usertype",
+      "item": [
+        {
+          "name": "POST /add",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/add",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "add"
+              ]
+            },
+            "description": "**Method:** POST\n**URL:** {{host}}//add\nAuto-generated description for userTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list\nAuto-generated description for userTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "GET /list/:id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{host}}/list/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "list",
+                ":id"
+              ]
+            },
+            "description": "**Method:** GET\n**URL:** {{host}}//list/:id\nAuto-generated description for userTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT /update/:id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/update/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "update",
+                ":id"
+              ]
+            },
+            "description": "**Method:** PUT\n**URL:** {{host}}//update/:id\nAuto-generated description for userTypeController"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE /delete/:id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{host}}/delete/:id",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "delete",
+                ":id"
+              ]
+            },
+            "description": "**Method:** DELETE\n**URL:** {{host}}//delete/:id\nAuto-generated description for userTypeController"
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
